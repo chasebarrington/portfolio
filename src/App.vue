@@ -26,23 +26,23 @@ export default {
     </div>
     <div class="flex flex-wrap max-w-md gap-4 px-8 mx-auto place-content-center mt-8">
       <div class="stack">
-        <img src="/vuejs.ico" width="24" height="24">
+        <img src="/vuejs.ico" alt="vuejs" width="24" height="24">
         <span class="my-auto">VueJS</span>
       </div>
       <div class="stack">
-        <img src="/vite.svg" width="24" height="24">
+        <img src="/vite.svg" alt="vite" width="24" height="24">
         <span class="my-auto">Vite</span>
       </div>
       <div class="stack">
-        <img src="/node.ico" width="24" height="24">
+        <img src="/node.ico" alt="node" width="24" height="24">
         <span class="my-auto">NodeJS</span>
       </div>
       <div class="stack">
-        <img src="/express.png" width="24" height="24">
+        <img src="/express.png" alt="express" width="24" height="24">
         <span class="my-auto">ExpressJS</span>
       </div>
       <div class="stack">
-        <img src="/mongo.ico" width="24" height="24">
+        <img src="/mongo.ico" alt="mongodb" width="24" height="24">
         <span class="my-auto">MongoDB</span>
       </div>
     </div>
@@ -78,21 +78,32 @@ export default {
         </div>
       </div>
       <div class="title mb-8">Showcase</div>
-      <div class="flex flex-wrap gap-8">
-        <div class="group relative">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-none justify-items-center">
+        <div class="group relative w-fit">
+          <a href="https://chasebarrington.github.io/portfolio/">
+            <img src="/portfolio.webp" alt="portfolio preview" class="rounded-lg hover:opacity-90 transition-opacity drop-shadow-md" width="380" height="288">
+          </a>
+          <div class="flex mt-2">
+            <div class="text-xl w-fit text-zinc-600">Portfolio</div>
+            <a href="https://github.com/chasebarrington/portfolio" class="ml-auto">
+              <img src="/github.ico" alt="github icon" width="24" height="24">
+            </a>
+          </div>
+        </div>
+        <div class="group relative w-fit">
           <a href="https://rune.city/">
-            <img src="/rune.webp" class="rounded-lg hover:opacity-90 transition-opacity" width="380" height="288">
+            <img src="/rune.webp" alt="rune.city preview" class="rounded-lg hover:opacity-90 transition-opacity drop-shadow-md" width="380" height="288">
           </a>
           <div class="flex mt-2">
             <div class="text-xl w-fit text-zinc-600">Rune City</div>
             <a href="https://github.com/chasebarrington/rune-city" class="ml-auto">
-              <img src="/github.ico" width="24" height="24">
+              <img src="/github.ico" alt="github icon" width="24" height="24">
             </a>
           </div>
         </div>
         <div class="group relative w-fit">
           <a href="https://treesoftruth.com/">
-            <img src="/trees.webp" class="rounded-lg hover:opacity-90 transition-opacity" width="380" height="288">
+            <img src="/trees.webp" alt="treesoftruth.com preview" class="rounded-lg hover:opacity-90 transition-opacity drop-shadow-md" width="380" height="288">
           </a>
           <div class="flex mt-2">
             <div class="text-xl w-fit text-zinc-600">Trees of Truth</div>
